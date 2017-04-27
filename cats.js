@@ -11,7 +11,7 @@ let sam = new Cat("Sam Faber-Manning", "Vu");
 let brandon = new Cat("Brandon", "Ranelle");
 let janice = new Cat("Yura-Nunaaaa", "Ranelle");
 let sunny = new Cat("Sunny", "One-True-Tony-The-Senile-Cat");
-
+//
 // Cat.prototype.cuteStatement = function() {
 //   return `Everyone loves ${this.name}!`;
 // };
@@ -28,3 +28,4 @@ console.log(sam.meow());
 console.log(brandon.meow());
 console.log(janice.meow());
 console.log(sunny.meow());
+console.log(sam.cuteStatement());
