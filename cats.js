@@ -16,4 +16,15 @@ let sunny = new Cat("Sunny", "One-True-Tony-The-Senile-Cat");
 //   return `Everyone loves ${this.name}!`;
 // };
 
-console.log(sam.cuteStatement());
+Cat.prototype.meow = function() {
+  return `${this.name} says meow!`;
+};
+
+janice.meow = function(){
+  return `${this.name} says 야옹!`;
+};
+
+console.log(sam.meow());
+console.log(brandon.meow());
+console.log(janice.meow());
+console.log(sunny.meow());
